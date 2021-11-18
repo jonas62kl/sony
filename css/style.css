@@ -1,0 +1,180 @@
+:root{
+    --branco:#ffffff;
+    --preta:#141414;
+    --blue: #2964e4;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+     
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color:white;
+
+}
+
+header .conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--blue);
+    font-family: 'Arial Black',sans-serif;
+    font-size: 30px;
+}
+
+nav#menu {
+    display: inline;
+}
+
+nav#menu ul {
+    list-style: none;
+    font-size: 16px;
+    position: relative;
+    margin-right: 20px;
+}
+
+    nav#menu li{
+        display: inline;
+        background-color: var(--blue);
+        padding: 10px;
+        margin-right: 6px;
+        transition: background-color 1s;
+    }
+    nav#menu li:hover {
+        background-color: var(--branco);
+    }
+
+    nav#menu a {
+        color: var(--branco);
+        text-decoration: none;
+    }
+    nav#menu a:hover {
+        color: var(--preta);
+        text-decoration: none;
+    }
+
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/sony_flix/img/ps-plus.jpg');
+
+    height:400px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container h3{
+    margin-left: 6px;
+    font-size: 30px;
+}
+
+.container .descricao{
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+
+    padding: 15px 10px;
+    margin-left: 6px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.box-filme {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*elentos dois */
+.banner2{
+    height: 400px;
+}
+
+.filme-principal1{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/sony_flix/img/crunchyroll-on-playstation.png');
+
+    height:600px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container h3{
+    margin-left: 6px;
+    font-size: 30px;
+}
+
+.container .descricao{
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 50px;
+
+}
+
+footer h3{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

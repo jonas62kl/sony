@@ -1,0 +1,40 @@
+.JSh1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+}
+
+.container-PPS1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.container-PPS1 ul{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.container-PPS1 li{
+    list-style: none;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.container-PPS1 img{
+    border:2px solid var(--blue);
+    width: 150px;
+    height: 150px;
+}
+
+.container-PPS1 a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+
+
